@@ -167,11 +167,12 @@ URI.prototype.toString = function () {
 			uri = new URI(url);
 			url = uri.resolve(this_uri);
 			
-			content = "<img src='http://chart.apis.google.com/chart?cht=qr&chs=" + settings.size + "x" + settings.size + "&choe=UTF-8&chld=L%7C0&chl=" + url + "' />";
-			content = "<img src='http://chart.apis.google.com/chart?cht=qr&chs=80x80&choe=UTF-8&chld=L%7C0&chl=http://kovshenin.com' /> ";
+		//	content = "<img src='http://chart.apis.google.com/chart?cht=qr&chs=" + settings.size + "x" + settings.size + "&choe=UTF-8&chld=L%7C0&chl=" + url + "' />";
+		//	content = "<img src='http://chart.apis.google.com/chart?cht=qr&chs=80x80&choe=UTF-8&chld=L%7C0&chl=http://kovshenin.com' /> ";
+			  content="before";
 			var tip = new Tip(content);
 						  console.log(content);
-						  content="test"
+						  content="test";
 			  console.log(content);
 
 			// Adding the tooltip markup to the element and
