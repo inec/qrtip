@@ -168,6 +168,7 @@ URI.prototype.toString = function () {
 			url = uri.resolve(this_uri);
 			
 			content = "<img src='http://chart.apis.google.com/chart?cht=qr&chs=" + settings.size + "x" + settings.size + "&choe=UTF-8&chld=L%7C0&chl=" + url + "' />";
+			content = "<img src='http://chart.apis.google.com/chart?cht=qr&chs=80x80&choe=UTF-8&chld=L%7C0&chl=http://kovshenin.com' /> "
 			var tip = new Tip(content);
 			  console.log(content);
 
