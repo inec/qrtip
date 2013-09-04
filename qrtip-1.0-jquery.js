@@ -169,6 +169,7 @@ URI.prototype.toString = function () {
 			
 			content = "<img src='http://chart.apis.google.com/chart?cht=qr&chs=" + settings.size + "x" + settings.size + "&choe=UTF-8&chld=L%7C0&chl=" + url + "' />";
 			var tip = new Tip(content);
+			  console.log(content);
 
 			// Adding the tooltip markup to the element and
 			// applying a special class:
